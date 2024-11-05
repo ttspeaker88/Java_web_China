@@ -1,0 +1,33 @@
+/* Change the background color of the page */
+body {
+    background-color: #f0f8ff;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+/* Add padding and a border to the paragraph */
+p {
+    padding: 15px;
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+/* Add a border and adjust the size of the image */
+img {
+    border: 3px solid #555;
+    width: 200px;
+}
+
+/* Change the font of the list items */
+ul {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Change link color on hover */
+a:hover {
+    color: red;
+}

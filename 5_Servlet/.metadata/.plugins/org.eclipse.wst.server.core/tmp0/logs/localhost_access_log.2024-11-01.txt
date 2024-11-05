@@ -1,0 +1,6 @@
+127.0.0.1 - - [01/Nov/2024:12:41:29 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [01/Nov/2024:12:41:30 +0100] "GET /08_Simple_webapp/FormServlet HTTP/1.1" 200 55
+127.0.0.1 - - [01/Nov/2024:12:41:30 +0100] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [01/Nov/2024:12:41:36 +0100] "GET /08_Simple_webapp/form.html HTTP/1.1" 200 697
+127.0.0.1 - - [01/Nov/2024:12:41:36 +0100] "GET /08_Simple_webapp/style.css HTTP/1.1" 200 909
+127.0.0.1 - - [01/Nov/2024:12:41:43 +0100] "POST /08_Simple_webapp/FormServlet HTTP/1.1" 200 80

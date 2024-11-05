@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+C:\TT\Egyetem\targyak\Java Web Application Development Technology - China\eloadas_gyak\6_MySQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4273058553.index
+\User_management_webapp\src\main\java

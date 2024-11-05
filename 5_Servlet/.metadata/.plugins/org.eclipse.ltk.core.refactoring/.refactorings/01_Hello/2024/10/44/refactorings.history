@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HelloWorld.java&apos; to &apos;filters&apos;&#x0D;&#x0A;- Original project: &apos;01_Hello&apos;&#x0D;&#x0A;- Destination element: &apos;filters&apos;&#x0D;&#x0A;- Original element: &apos;HelloWorld.java&apos;" description="Copy file" element1="src/main/java/hello/HelloWorld.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1730103942036" target="/06_Filters/src/main/java/filters" units="0" version="1.0"/>
+</session>

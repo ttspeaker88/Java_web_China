@@ -1,0 +1,5 @@
+package mysql_delete;
+
+public class DeleteStudentExample {
+
+}

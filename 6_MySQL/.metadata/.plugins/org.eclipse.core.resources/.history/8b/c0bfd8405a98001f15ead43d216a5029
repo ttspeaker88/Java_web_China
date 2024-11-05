@@ -1,0 +1,5 @@
+package hello_mysql;
+
+public class DatabaseQueryExample {
+
+}

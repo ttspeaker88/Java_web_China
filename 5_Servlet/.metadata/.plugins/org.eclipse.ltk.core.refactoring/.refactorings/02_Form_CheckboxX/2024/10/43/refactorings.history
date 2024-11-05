@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;checkbox&apos; to &apos;02_Form_checkbox/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;02_Form_CheckboxX&apos;&#x0D;&#x0A;- Destination element: &apos;02_Form_checkbox/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;02_Form_CheckboxX/src/main/java/checkbox&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=02_Form_checkbox/src\/main\/java" element1="/src\/main\/java&lt;checkbox" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1729671172230" version="1.0"/>
+</session>

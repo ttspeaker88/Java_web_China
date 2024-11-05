@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>User Form</title>
+</head>
+<body>
+    <h2>User Registration</h2>
+    <form action="UserServlet" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <form action="UserServlet" method="get">
+        <button type="submit">View All Users</button>
+    </form>
+</body>
+</html>

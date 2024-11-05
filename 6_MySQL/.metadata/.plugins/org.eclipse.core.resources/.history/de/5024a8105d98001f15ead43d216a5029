@@ -1,0 +1,53 @@
+package mysql_create_table;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class CreateTableExample {
+	 public static void main(String[] args) {
+	        // JDBC URL, felhasználónév és jelszó
+	        String url = "jdbc:mysql://localhost:3306/your_database_name"; // Cseréld le a megfelelő adatbázis névre
+	        String user = "your_username"; // Cseréld le a MySQL felhasználónevedre
+	        String password = "your_password"; // Cseréld le a MySQL jelszavadra
+
+	        // Kapcsolat és Statement objektum
+	        Connection connection = null;
+	        Statement statement = null;
+
+	        try {
+	            // Kapcsolat létrehozása
+	            connection = DriverManager.getConnection(url, user, password);
+	            // Statement objektum létrehozása
+	            statement = connection.createStatement();
+
+	            // SQL lekérdezés a tábla létrehozásához
+	            String sql = "CREATE TABLE students (" +
+	                         "id INT AUTO_INCREMENT PRIMARY KEY," +
+	                         "name VARCHAR(100) NOT NULL," +
+	                         "age INT NOT NULL" +
+	                         ")";
+
+	            // Tábla létrehozása
+	            statement.executeUpdate(sql);
+	            System.out.println("Tábla sikeresen létrehozva!");
+
+	        } catch (SQLException e) {
+	            e.printStackTrace();
+	        } finally {
+	            // Erőforrások felszabadítása
+	            try {
+	                if (statement != null) {
+	                    statement.close();
+	                }
+	                if (connection != null) {
+	                    connection.close();
+	                }
+	            } catch (SQLException ex) {
+	                ex.printStackTrace();
+	            }
+	        }
+	    }
+
+}

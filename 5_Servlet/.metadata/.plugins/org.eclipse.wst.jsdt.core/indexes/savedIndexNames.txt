@@ -1,0 +1,19 @@
+INDEX VERSION 1.4+C:\TT\Egyetem\targyak\Java Web Application Development Technology - China\eloadas_gyak\5_Servlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2321261930.index
+2066771276.index
+899522538.index
+1448421286.index
+3775778675.index
+1775676751.index
+626928021.index
+1749770977.index
+2349670393.index
+4006573850.index
+98695359.index
+279774778.index
+856753900.index
+2940410499.index
+4287015327.index
+749912631.index
+433325072.index
+2539886771.index

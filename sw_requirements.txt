@@ -1,0 +1,6 @@
+Eclipse 2024-09 (4.33.0) Build id: 20240905-0614, Eclipse IDE for Enterprise Java and Web Developers
+JDK 18.0.1.1
+Notepad++
+Tomcat 11.0.0
+mysql Ver 14.14 Distrib 5.6.20
+mysql-connector-j-9.1.0.jar

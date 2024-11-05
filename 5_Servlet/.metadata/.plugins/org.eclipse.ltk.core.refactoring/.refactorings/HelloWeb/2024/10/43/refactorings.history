@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;hello.HelloWordl&apos; to &apos;HelloWorld&apos;&#x0D;&#x0A;- Original project: &apos;HelloWeb&apos;&#x0D;&#x0A;- Original element: &apos;hello.HelloWordl&apos;&#x0D;&#x0A;- Renamed element: &apos;hello.HelloWorld&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HelloWordl&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;hello{HelloWordl.java[HelloWordl" matchStrategy="1" name="HelloWorld" qualified="false" references="true" similarDeclarations="false" stamp="1729610527855" textual="false" version="1.0"/>
+</session>

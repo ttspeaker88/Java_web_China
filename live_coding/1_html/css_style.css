@@ -1,0 +1,45 @@
+body {
+	background-color: red;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+p {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 30px;
+	padding-left: 80px;
+}
+
+img {
+	width: 150px;
+	height: 150 px;
+	border: 10px solid;	
+}
+
+ul.d {
+	list-style-type: lower-alpha;
+}
+
+ /* unvisited link */
+a:link {
+	color: red;
+}
+
+/* visited link */
+a:visited {
+	color: green;
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+}
+
+/* selected link */
+a:active {
+	color: blue;
+} 

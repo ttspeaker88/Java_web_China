@@ -1,0 +1,23 @@
+p {
+	color: red;
+	text-align: right;
+}
+
+
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: navy;
+	margin-left: 20px;
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightgreen;
+  text-align: center;
+  opacity: 0.4;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html>
+<body>
+	<h2>JavaScript Variables</h2>
+	<p>In this example, x is defined as a variable. Then, x is assigned the value of 6:</p>
+	
+	<p id="demo"></p>
+		<script>
+			let x;
+			x = 6;
+			document.getElementById("demo").innerHTML = x;
+		
+			const price1 = 5;
+			const price2 = 6;
+			let total = price1 + price2;
+			console.log("The value of the 'total' variable: " + total);
+		
+			// Numbers:
+			let length = 16;
+			let weight = 7.5;
+			console.log("length: " + length + " weight: " + weight);
+			
+			// Strings:
+			let color = "Yellow";
+			let lastName = "Johnson";
+			console.log("color: " + color + " lastName: " + lastName);
+			
+			// Booleans
+			let x_true = true;
+			let y_false = false;
+			console.log("x_true: " + x_true + " y_false: " + y_false);
+
+			// Object:
+			const person = {firstName:"John", lastName:"Doe"};
+			console.log("firstName of the person object: " + person.firstName);
+			console.log("lastName of the person object: " + person.lastName);
+
+			// Array object:
+			const cars = ["Saab", "Volvo", "BMW"];
+			console.log("'cars' array: " + cars);
+
+			// Date object:
+			const date = new Date("2022-03-25");
+			console.log("date: " + date);
+		
+		
+		</script>
+</body>
+</html>

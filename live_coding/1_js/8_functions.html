@@ -1,0 +1,44 @@
+<html>
+<head>
+   <script type="text/javascript">
+      function sayHello() {
+		alert("Nice to meet you, I am Tamás : )");
+      }
+	  
+	  function sayHelloWithParams(name, age) {
+		alert(name + " is " + age + " years old.");
+      }
+	  
+	  function concatenate(first, last) {
+		var full;
+         
+		full = first + last;
+         
+		return full;
+      }
+	  
+	  function functionWithReturn() {
+		var result;
+        
+		result = concatenate('Hello', ' there!');
+         
+		alert(result);
+      }
+	    
+   </script>
+</head>
+
+<body>
+   <p>Click the following button to call the function</p>
+   
+   <form>
+      <input type="button" onclick="sayHello()" value="Calling the sayHello function">
+      <br><br>
+	  <input type = "button" onclick="sayHelloWithParams('Tamás', 36)" value = "sayHello function with params">
+	  <br><br>
+	  <input type="button" onclick="functionWithReturn()" value="Function with return">
+  </form>
+   
+   
+</body>
+</html>

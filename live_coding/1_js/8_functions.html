@@ -24,11 +24,23 @@
          
 		alert(result);
       }
-	    
+	  
+	 
    </script>
 </head>
 
+
+
 <body>
+	<p id="functionOutput"></p>
+	<script>
+		const functionVariable = function(){ 
+			return "Hello ";
+	    };
+	    document.getElementById("functionOutput").innerHTML = functionVariable() + "Users.";
+	</script>
+
+
    <p>Click the following button to call the function</p>
    
    <form>
@@ -38,6 +50,8 @@
 	  <br><br>
 	  <input type="button" onclick="functionWithReturn()" value="Function with return">
   </form>
+  
+  
    
    
 </body>

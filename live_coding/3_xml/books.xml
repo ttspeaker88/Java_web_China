@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-
+instance"xsi:noNamespaceSchemaLocation="books.xsd">
+    <book>
+        <title>Harry Potter and the Philosopher's Stone</title>
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <price>29.99</price>
+    </book>
+
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1937</year>
+        <price>19.99</price>
+    </book>
+
+</bookstore>

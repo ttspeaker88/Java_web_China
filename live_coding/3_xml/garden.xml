@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE garden [ <!ELEMENT garden (plants)*>
+<!ELEMENT plants (#PCDATA)>
+<!ATTLIST plants category CDATA #REQUIRED>]>
+
+<garden>
+    <plants category = "flowers"/>
+    <plants category = "shrubs">
+    </plants>
+</garden>

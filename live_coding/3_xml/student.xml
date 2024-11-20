@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!--Students grades are uploaded by months-->
+<class_list>
+    <student>
+        <name>Tomi</name>
+        <grade>5</grade>
+    </student>
+
+    <student>
+        <name>Martin</name>
+        <grade>1</grade>
+    </student>
+
+</class_list>
